@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'TitleFont';
+    src: url('fonts/title.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AllTextFont';
+    src: url('fonts/alltext.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body#index {
+    font-family: 'AllTextFont', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e0e7ef;
+    color: white;
+    padding: 0.2%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #8c8c8c;
+}
+
+img.logo {
+    width: 45px;
+    margin-right: 1em;
+}
+
+h1.math-club-title {
+    font-family: 'TitleFont', Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 1em;
+    background-color: #e0e7ef;
+    border: 1px solid #8c8c8c;
+    border-radius: 5px;
+    text-align: center;
+}
